@@ -1,0 +1,143 @@
+<html>
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<title>Doxameter</title>
+<link rel="stylesheet" href="DS.css">
+<script src="DS.js"></script>
+<script src="jquery-2.2.0.js"></script>
+<script src="jquery-ui.js"></script>
+<script>
+
+  
+  
+</script>
+
+</head>
+<body bgcolor="#5b9bd5" height="100%" width="100%">
+	<div id="container">
+		<div id="header">
+			<div align="center">
+				<a href="http://doxameter.com">
+					<img src="images/logomenu.png">
+				</a>
+			</div>
+			<div align="center" style="margin-bottom:17px">
+				<a href="http://doxameter.com/presentations/formalepistemology.php">Dempster Shefer |
+				</a>
+				<a href="http://doxameter.com/DS/Tutorial/HowItWorks.html">&nbsp; How it works &nbsp |
+				</a>
+				<a href="http://doxameter.com/aboutme.html">&nbsp about me
+				</a>
+			</div>
+			
+		</div>
+		<div id="body">
+			<div align="center">
+				<div id="boxcalculator" align="left">
+					<div id="divStates" name="divStates"><hr color="white">
+						<input id='chkHideHelp' type='checkbox' onclick="tiptobeornot()" checked>
+						<span>
+							&nbsp&nbsp
+							<font size="2" font="verdana" color="#666666">
+								&nbsp&nbsp np*: 
+							</font>
+						</span>
+						<input id="txtNumberofpossibilities" name="txtNumberofpossibilities" class="txtDSclassNP" value='' maxlength="1" type="number" min="1" max="8" style="width:35px">
+						<input id="NPbtnback" type="submit" class="inputsubmit" value=" redo " style="display:none" onclick="npbackFunction()">
+						<input id="NPbtn" type="submit" class="inputsubmit" value=" do " onclick="npFunction()">
+						<span>
+							&nbsp;
+							<font size="2" font="verdana" color="#666666">
+								&nbsp; Mass Sum: 
+							</font>
+						</span>
+						<input id="txtmass" type="number" class="txtDSclass" max="1" min="0">
+						<span>
+							<font size="2" font="verdana" color="#666666">
+							&nbsp; max:&nbsp 
+							</font>
+						</span>
+						<input id='txtPerspective' name='txtperspectivetate' class="inputtxtclass" type="number" value="0">
+						<input id="Massbtn" type="submit" class="inputsubmit" value=" Cal " onclick="massFunction()" style="display:none">
+						<br>
+						<hr color="white">
+						<span>
+							<font size="2" font="verdana" color="#666666">
+							&nbsp; perspective:&nbsp 
+							</font>
+						</span>
+						<input id='txtPerspectivestate' name='txtperspectivestate' class="inputtxtclassPers" type="text" value="">
+						
+						
+					</div>
+					<hr color="white">
+					<div id="lineec" height="10px">
+					<hr id="lineeca" noshade color="white">
+					</div>
+					
+					
+						
+					
+				
+				<div id="divDragablerobot">
+					<div id="dragtargetType"></div>
+					<div id="PDType"></div>	
+				</div>
+			
+					
+					<div class="divTable">
+						<div class="headRow">		
+							<br>
+							<div id="divDoxasticStates" class="divCell" align="center">
+								<div class="message">
+									<div id="divTips">
+									</div>
+									
+									<div id="tuto" style="text-align:center; visibility:visible">
+										<div style="border:1px solid #cfcfcf; padding-left:20px; width:349px;">
+											<div id="texttutotext" style="text-align:left;">
+												<font color="gray"> &#8593; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *What is your &nbsp;&nbsp; <i> frame of discernment?  </i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>  -input the number of possibilities! np*<br> --click 'Do'
+											</div>
+										</div>
+										<div id="errTableMass" style="display:none; visibility:hidden">
+											<span id="errmass"><font color="red">The sume of masses should be 1!</font></span><br>
+										</div>
+									</div>
+									
+									
+								</div>
+									<div id="imgTablehead" style="display:none; visibility:hidden; height:16px;">
+										<img src="images/ESimg.png"><img src="images/CBimg.png"><img src="images/massimg.png"><img src="images/beliefimg.png"><img src="images/plausibility.png"><img src="images/Commonalityimg.png">
+										
+									</div>
+									
+									<br><hr id='lineheadtable' width="367px">
+									
+									<div id="sortable" class="sorthover">
+				
+									</div>
+								<div id="divDragablerobotja" class="divepistemicstatesha">
+								</div>
+								<div class="divepistemicstatesha">
+										
+								</div>
+							</div>			
+						</div>
+					</div>
+				</div>
+				
+				
+				
+			</div>
+			
+		</div>
+		<div id="footer">
+			<div align="center">
+				<img src="images/robibtnimg.png"><br>
+				<font color="black">&copy; 2016 doxameter.com</font>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

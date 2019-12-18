@@ -1,0 +1,329 @@
+/* page structure*/
+body 
+{
+   background:#5b9bd5;
+   background-color:#5b9bd5;
+   margin:0;
+   padding:0;
+   height:100%;
+   height:auto;
+}
+#container 
+{
+   min-height:100%;
+   position:relative;
+   height:auto;
+}
+#header 
+{
+   background:#5b9bd5;
+   padding:0px;
+}
+#body 
+{
+   padding:10px;
+   padding-bottom:80px;   /* Height of the footer */
+}
+#footer 
+{
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:70px;   /* Height of the footer */
+   background:#5b9bd5;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+.block_container
+{
+    text-align:left;
+	float:left;
+}
+.bloc1
+{
+    display:inline;
+	width:291px;
+	text-align:center;
+}
+.bloc2
+{
+	display:inline;
+	text-align:center;
+}
+.bloc2ES
+{
+	display:inline;
+	width:400px;
+	text-align:center;
+}
+.sortclassdragicon {
+	padding-left:3px;
+	padding-right:3px;
+	padding-bottom:5px;
+	margin:2px;
+	min-width:595;
+	background-color:#e5f2ff;
+	border-bottom:0px solid gray;
+	display:inline-block;
+	border-radius:5px;
+}
+.divsatr {
+	
+}
+.sorthover {
+	cursor:move;	
+	padding-bottom:5px;
+}
+
+/* tags */
+img 
+{
+	margin:0px;
+	
+}
+a 
+{
+	color:black;
+}
+a:link
+{
+	text-decoration:none;
+}
+a:visited
+{
+	text-decoration:none;
+}
+a:hover 
+{
+	text-decoration:none;
+}
+a:active
+{
+	text-decoration:none;
+}
+.divTable 
+{
+    display:table;
+    width:100%;
+	text-align:center;
+}
+.divRow
+{
+	display:table-row;
+	width:100%;
+}
+.headRow
+{
+	display:inline-block;
+}
+.divCell
+{
+    float:left;
+    display:table-column;
+	height: auto;
+	border: 0px solid gray;
+	vertical-align: middle;
+}
+.divepistemicstatesha {
+	
+	background-repeat: no-repeat;
+    background-position: left; 
+	
+}
+#boxcalculator 
+{
+	background-color:white;
+    padding:5px;
+	width:27.7%;
+	min-width:620px;
+	min-height:450px;
+	border-radius: 25px;
+    border: 1px solid white;
+    padding: 20px;  /* box-shadow: 0px 1px 2px black; */
+	text-align:center;
+	height:auto;
+}
+.inputtxtclass
+{
+	color:#808080;
+	background-color:#ffffff;
+	border:1px solid #dddddd;padding:0px;
+	border-radius:10px; 
+	width:49px;
+	text-align:center;
+}
+.inputtxtclassPers
+{
+	color:#808080;
+	background-color:#ffffff;
+	border:1px solid #dddddd;padding:0px;
+	border-radius:10px; 
+	width:320px;
+	text-align:center;
+}
+.inputnumbersum {
+	color:black;
+	background-color:#f8f9fa;
+	border:1px solid #dddddd;
+	padding:0px;
+	border-radius:10px; 
+	width:65px;
+	height:17px;
+	text-align:center;
+	margin-top:5px;
+	margin-left:5px;
+	
+}
+.txtDSclassNP {
+	color:#808080;
+	background-color:#ffffff;
+	border:1px solid #dddddd;
+	padding:0px;
+	border-radius:10px; 
+	width:65px;
+	text-align:center;
+}
+.txtDSclass {
+	color:#808080;
+	background-color:#ffffff;
+	border:1px solid #dddddd;
+	padding:0px;
+	border-radius:10px; 
+	width:49px;
+	text-align:center;
+}
+.inputsubmit {
+  color:black;
+  background-color:#eeeeee;
+  border:1px solid #dddddd;
+  padding:0px;
+  width:64px;
+  border-radius:10px; 
+  text-align:center;
+}
+.inputsubmitmass {
+  color:gray;
+  background-color:#eeeeee;
+  border:1px solid #dddddd;
+  margin-bottom:0px;
+  width:67px;
+  height:54px;
+  border-radius:10px; 
+  text-align:center;
+  }
+.message {
+	background-color:white;
+	text-align:center;
+}
+.tipsmesssagebox {
+	
+}
+.possshape {
+	margin: 3px 11px 0px 0px;
+	color:white;
+	border-radius: 25px;
+	width:35px;
+	height:35px;
+	background-color:#5b9bd5;
+	border:2px solid #e5e5ff;
+	padding:0px;
+}
+.txtmass {
+	color:black;
+	background-color:#ffffff;
+	border:1px solid #dddddd;
+	padding:0px;
+	border-radius:10px; 
+	width:65px;
+	height:24px;
+	text-align:center;
+	margin-top:5px;
+	margin-left:5px;
+}
+.txtdegrees {
+	color:black;
+	background-color:#ffffff;
+	border:1px solid #dddddd;
+	padding:0px;
+	border-radius:10px; 
+	width:65px;
+	height:24px;
+	text-align:center;
+	margin-top:5px;
+	margin-left:5px;
+	
+	
+}
+.txtbeliefcss {
+	color:black;
+	background-color:#ffffff;
+	border:1px solid #dddddd;
+	padding:0px;
+	border-radius:10px; 
+	width:65px;
+	height:24px;
+	text-align:center;
+	margin-top:5px;
+	margin-left:5px;	
+}
+.txtplausibilitycss {
+	color:black;
+	background-color:#ffffff;
+	border:1px solid #dddddd;
+	padding:0px;
+	border-radius:10px; 
+	width:65px;
+	height:24px;
+	text-align:center;
+	margin-top:5px;
+	margin-left:5px;	
+}
+.txtcommonalitycss {
+	color:black;
+	background-color:#ffffff;
+	border:1px solid #dddddd;
+	padding:0px;
+	border-radius:10px; 
+	width:65px;
+	height:24px;
+	text-align:center;
+	margin-top:5px;
+	margin-left:5px;	
+}
+
+.txtdegreesmassSum {
+	color:black;
+	background-color:#f8f9fa;
+	border:1px solid #dddddd;
+	padding:0px;
+	border-radius:10px; 
+	width:65px;
+	height:17px;
+	text-align:center;
+	margin-top:5px;
+	margin-left:5px;
+	
+}
+.droptarget {
+    float: left; 
+    width: 400px; 
+    height: 35px;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+.PDTypeClass {
+	padding-left:0px; 
+	
+}
+.undropableclass{
+	border-left:0px solid gray;
+	float:left;
+}
